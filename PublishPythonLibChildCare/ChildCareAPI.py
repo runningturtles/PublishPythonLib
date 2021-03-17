@@ -1,7 +1,7 @@
 # Class ChildCareAPI provides the interfaces to
 # import, query and filter data
 
-import ChildCare as ChildCare_Class
+from . import ChildCare as ChildCare_Class
 import re
 import os
 
