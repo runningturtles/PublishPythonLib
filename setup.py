@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='Child Care API',
+    name='ChildCareAPI',
     version='0.0.1',
     description='API to get information about \
                 the statistic information of \
