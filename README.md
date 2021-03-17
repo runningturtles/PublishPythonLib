@@ -1,2 +1,2 @@
-# build_and_publish_python_package
+# PublishPythonLib
 Test repo for building and publishing python package from GitHub to TestPyPi
