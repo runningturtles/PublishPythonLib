@@ -10,5 +10,6 @@ setup(
     author='runningturtles',
     author_email='wangxn@gmx.com',
     license='unlicense',
-    packages=['PublishPythonLibChildCare']
+    packages=['PublishPythonLibChildCare'],
+    zip='false'
 )
