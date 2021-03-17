@@ -8,6 +8,6 @@ setup(
     author='Running Turtles',
     author_email='wangxn@gmx.com',
     license='unlicense',
-    packages=['my_first_package'],
+    packages=['build_empty_17032021'],
     zip_safe=False
 )
