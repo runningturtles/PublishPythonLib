@@ -1,0 +1,20 @@
+# This workflow will test the python modules 
+# when codes are modified
+
+name: Test Python Lib
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      - run: |
+          python ./ChildCare_Tests/test_ChildCare.py
+          python ./ChildCare_Tests/test_ChildCareAPI.py
